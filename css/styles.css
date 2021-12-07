@@ -1,0 +1,74 @@
+body{
+  background-color: #fff;
+}
+pre{
+  font-weight: 600;
+  font-size: 100%;
+  font-family: 'Audiowide', cursive;
+}
+
+#about{
+  background-color: #ff4c68;
+}
+.navbar{
+  background-color: #ff4c68;
+}
+.navbar-brand{
+  color: #fff;
+  /* text-align: center; */
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding-left: 30px;
+  padding-left: 30px;
+
+}
+.nav-link{
+  color: #fff;
+  /* font-weight: 500; */
+  font-size: 150%;
+  font-family: "Montserrat-Light";
+}
+.navbar-toggler{
+  border: 3px solid #fff;
+}
+
+.row{
+  background-color: #ff4c68;
+}
+
+.container-fluid{
+  /* padding: 7% 15%; */
+}
+
+.title{
+   margin-top: 50px;
+   margin-bottom: 30px;
+   text-align: center;
+   color: #fff;
+   font-weight: 500;
+   font-size: 300%;
+   font-family: 'Audiowide', cursive;
+}
+
+.content{
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 150%;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Roboto', sans-serif;
+}
+.profile{
+  background-size: contain;
+  width: 80%;
+  height: auto;
+}
+.resume{
+  margin-top: 20px;
+  margin-left: 30%;
+  border: 2px solid #fff;
+}
