@@ -1,14 +1,10 @@
 body{
   background-color: #fff;
 }
-pre{
-  font-weight: 600;
-  font-size: 100%;
-  font-family: 'Audiowide', cursive;
-}
 
 #about{
   background-color: #ff4c68;
+  padding: 3% 5% 0 5%;
 }
 .navbar{
   background-color: #ff4c68;
@@ -28,7 +24,7 @@ pre{
 .nav-link{
   color: #fff;
   /* font-weight: 500; */
-  font-size: 150%;
+  font-size: 130%;
   font-family: "Montserrat-Light";
 }
 .navbar-toggler{
@@ -46,16 +42,16 @@ pre{
    text-align: center;
    color: #fff;
    font-weight: 500;
-   font-size: 300%;
+   font-size: 200%;
    font-family: 'Audiowide', cursive;
 }
 
 .content{
   text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
   font-weight: 500;
-  font-size: 150%;
+  font-size: 120%;
   color: rgba(255, 255, 255, 0.8);
   font-family: 'Roboto', sans-serif;
 }
@@ -63,7 +59,7 @@ pre{
   /* background-size: contain; */
   width: 80%;
   height: auto;
-  /* position: absolute; */
+  /* padding-top: 11% */
 }
 
 .resume{
@@ -74,4 +70,12 @@ pre{
 }
 .container{
   text-align: center;
+}
+
+@media (max-width: 800px) {
+  .profile{
+    padding-top: 2%;
+    width: 60%;
+  }
+
 }
