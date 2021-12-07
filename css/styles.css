@@ -39,9 +39,6 @@ pre{
   background-color: #ff4c68;
 }
 
-.container-fluid{
-  /* padding: 7% 15%; */
-}
 
 .title{
    margin-top: 50px;
@@ -63,12 +60,18 @@ pre{
   font-family: 'Roboto', sans-serif;
 }
 .profile{
-  background-size: contain;
+  /* background-size: contain; */
   width: 80%;
   height: auto;
+  /* position: absolute; */
 }
+
 .resume{
+  /* position: absolute; */
   margin-top: 20px;
-  margin-left: 30%;
+  margin-bottom: 20px;
   border: 2px solid #fff;
+}
+.container{
+  text-align: center;
 }
